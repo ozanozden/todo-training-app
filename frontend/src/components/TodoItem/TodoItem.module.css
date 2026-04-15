@@ -1,0 +1,42 @@
+.todoItemCard {
+    background-color: var(--color-background-card);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px;
+    margin: 32px;
+    border-radius: 16px;
+    justify-self: auto;
+}
+
+.todoItem {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+.todoItemAction{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.description {
+    margin-top: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.description.expanded {
+    overflow: visible;
+    text-overflow: unset;
+    white-space: normal;
+}
+
+@media (min-width: 992px){
+    .todoItemCard {
+        justify-self: auto;
+    }
+}
