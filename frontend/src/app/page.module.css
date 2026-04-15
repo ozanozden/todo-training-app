@@ -1,0 +1,5 @@
+.addNewTodoButton {
+    display: block;
+    margin: auto;
+    margin-top: var(--spacing-2);
+}
