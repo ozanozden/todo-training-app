@@ -1,0 +1,43 @@
+.hiddenInput {
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: var(--border-radius);
+}
+
+.hiddenInput:hover {
+    cursor: pointer;
+}
+
+.hiddenInput:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    opacity: 10;
+    background-color: white !important;
+}
+
+.customCheckbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color-border);
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-border);
+}
+
+.customCheckbox:hover {
+    cursor: pointer;
+}
+
+/* When checked */
+.hiddenInput:checked + .customCheckbox {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.checkmark {
+    color: white;
+}
