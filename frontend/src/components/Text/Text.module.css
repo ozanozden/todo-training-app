@@ -1,0 +1,40 @@
+.title1 {
+    font-size: var(--font-size-title1);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-secondary);
+    line-height: var(--line-height);
+}
+
+.title2 {
+    font-size: var(--font-size-title2);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-secondary);
+    line-height: var(--line-height);
+}
+
+.title3 {
+    font-size: var(--font-size-title3);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-secondary);
+    line-height: var(--line-height);
+}
+
+.body {
+    font-size: var(--font-size-body);
+    color: var(--color-text);
+    line-height: var(--line-height);
+}
+
+.caption {
+    font-size: var(--font-size-caption);
+    color: var(--color-text-light);
+    line-height: var(--line-height);
+}
+
+.overline {
+    font-size: var(--font-size-overline);
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: var(--line-height);
+}
